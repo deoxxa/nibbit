@@ -1,0 +1,33 @@
+{
+  "name": "nibbit",
+  "description": "NBT encoder and decoder",
+  "version": "0.0.0",
+  "author": {
+    "name": "Conrad Pankoff",
+    "email": "deoxxa@fknsrs.biz",
+    "url": "http://www.fknsrs.biz/"
+  },
+  "url": "http://github.com/deoxxa/nibbit",
+  "license" : "BSD",
+  "repository" : { "type":"git", "url":"git://github.com/deoxxa/nibbit.git" },
+  "keywords" : [
+    "nibbit",
+    "nbt",
+    "parser",
+    "generator",
+    "encoder",
+    "decoder",
+    "minecraft"
+  ],
+  "main": "./lib/index",
+  "dependencies": {
+    "bigint": "0.3.x",
+    "binary": "0.3.x"
+  },
+  "devDependencies": {
+    "docco": "*"
+  },
+  "scripts": {
+    "docs": "PATH=${PATH}:./node_modules/docco/bin docco lib/*.js"
+  }
+}
