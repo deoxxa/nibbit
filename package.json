@@ -1,7 +1,7 @@
 {
   "name": "nibbit",
   "description": "NBT encoder and decoder",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": {
     "name": "Conrad Pankoff",
     "email": "deoxxa@fknsrs.biz",
